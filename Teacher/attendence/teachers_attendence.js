@@ -1,5 +1,3 @@
-
-
 var date = new Date();
 // get the date as a string
 var n = date.toDateString();
@@ -13,3 +11,9 @@ document.getElementById("date").innerHTML = n;
 
 // log the time in the browser console
 document.getElementById("time").innerHTML = time;
+
+let checkbtn = document.querySelector('input');
+
+checkbtn.addEventListener('change', () => {
+    console.log('marked');
+})
