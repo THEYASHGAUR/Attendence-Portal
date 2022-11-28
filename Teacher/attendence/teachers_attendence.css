@@ -25,6 +25,33 @@ body{
 .filters .filter4{
     margin: 10px;
 }
+
+.filters .filter1 select{
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+.filters .filter2 select{
+    padding: 10px 38px;
+    border-radius: 6px;
+}
+.filters .filter3 select{
+    padding: 10px 28px;
+    border-radius: 6px;
+}
+.filters .filter4 select{
+    padding: 10px 8px;
+    
+    border-radius: 6px;
+}
+
+
+
+
+
+
+
+
+
 .filters  button{
     background-color:lightblue;
     float: right;
@@ -130,4 +157,17 @@ body{
     background-color: #34c759;
     box-shadow: cadetblue;
     box-shadow: 7px 6px 9px 0px rgba(0,0,0,0.75);
+}
+
+
+
+
+
+
+
+/* media queries */
+@media (max-width:374px){
+    #search{
+        width: 100%;
+    }
 }

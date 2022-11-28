@@ -13,7 +13,7 @@ menu.addEventListener('click', function(){
     document.getElementById('menu').style.display = 'none';
     document.getElementById('cross').style.display = 'block';
     document.getElementById('header').style.marginLeft = '350px';
-    document.getElementsByTagName('nav').style.marginLeft = '-100px';
+    // document.getElementsByTagName('nav').style.marginLeft = '-100px';
 
 })
 cross.addEventListener('click', function(){
